@@ -49,4 +49,12 @@ times.addEventListener('click', function(){
 
 });
 
+
+// Preloader
+var Preloader = document.getElementById('preloader');
+
+window.addEventListener("load", function(){
+    Preloader.style.display='none';
+    
+})
 });
